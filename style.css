@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: linear-gradient(rgb(236, 156, 52),burlywood);
+}
+
+.login{
+    background-color: burlywood;
+    width: 350px;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.login > h1{
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin: 0.5rem 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    padding: 0.5rem;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+button{
+    height: 2rem;
+    color: black;
+    background-color: rgb(238, 174, 91);
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+img{
+    height: 4rem;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
