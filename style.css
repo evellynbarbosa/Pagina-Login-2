@@ -58,12 +58,3 @@ button{
     border: solid 1px black;
     border-radius: 5px;
 }
-
-img{
-    height: 4rem;
-}
-
-.image{
-    display: flex;
-    justify-content: center;
-}
